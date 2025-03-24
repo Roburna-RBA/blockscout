@@ -30,7 +30,6 @@ services:
       context: ..
       dockerfile: ./docker/Dockerfile
       args:
-        CACHE_EXCHANGE_RATES_PERIOD: ""
         API_V1_READ_METHODS_DISABLED: "false"
         DISABLE_WEBAPP: "false"
         API_V1_WRITE_METHODS_DISABLED: "false"
