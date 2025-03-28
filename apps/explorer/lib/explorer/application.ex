@@ -265,7 +265,7 @@ defmodule Explorer.Application do
           :indexer
         ),
         configure_mode_dependent_process(
-          Explorer.Migrator.HeavyDbIndexOperation.CreateLogsTransactionHashBlockHashIndexAddressHashIndex,
+          Explorer.Migrator.HeavyDbIndexOperation.CreateLogsDepositWithdrawalIndex,
           :indexer
         ),
         Explorer.Migrator.RefetchContractCodes |> configure() |> configure_chain_type_dependent_process(:zksync),
